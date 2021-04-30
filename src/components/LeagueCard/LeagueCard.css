@@ -1,0 +1,53 @@
+.league-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1.5;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+}
+
+.league-logo img {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.main-btn {
+  font-size: 14px;
+  font-weight: bold;
+  width: 200px;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to right,
+    #00c6ff 0%,
+    #0072ff 51%,
+    #00c6ff 100%
+  );
+  color: #fff;
+  text-transform: uppercase;
+  transition: 0.5s;
+  text-align: center;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  color: white;
+  border-radius: 10px;
+}
+
+.main-btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+#icon-right-arrow {
+  font-size: 20px;
+  display: inline-block;
+  padding-left: 10px;
+}
